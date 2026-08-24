@@ -7,3 +7,4 @@ uv.lock
 test.py
 pyproject.toml
 .python-version
+game_events.jsonl
