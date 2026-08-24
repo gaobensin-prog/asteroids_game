@@ -21,6 +21,5 @@ class CircleShape(pygame.sprite.Sprite):
         pygame.draw.polygon(screen,"white",self.triangle(),lw)
 
     def update(self, dt: float) -> None:
-        # must override
         pass
 

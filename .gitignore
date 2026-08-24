@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 .env
 game_state.jsonl
+uv.lock
+test.py
+pyproject.toml
+.python-version
