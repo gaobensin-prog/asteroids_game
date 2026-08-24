@@ -8,7 +8,7 @@ class Player(CircleShape):
     def rotate(self,dt):
         self.rotation += pts * dt
     def update(self,dt:float):
-        keys = pygae.key.get_pressed()
+        keys = pygame.key.get_pressed()
 
         if keys[pygame.K_a]:
             self.rotate(-dt)
