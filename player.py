@@ -1,4 +1,4 @@
-from cicleshape import CircleShape
+from circleshape import CircleShape
 from constants import PLAYER_RADIUS as pr
 
 class Player(CircleShape):
