@@ -2,10 +2,10 @@ from circleshape import CircleShape
 from constants import PLAYER_RADIUS as pr
 
 class Player(CircleShape):
-    def __init__(x,y):
+    def __init__(self,x,y):
         super().__init__(x,y)
-        radius = pr
-        rotation = 0
+        self.radius = pr
+        self.rotation = 0
     def triangle(self):
         forward = pygame.Vector2(0, 1).rotate(self.rotation)
         right = pygame.Vector2(0, 1).rotate(self.rotation)
